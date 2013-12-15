@@ -203,7 +203,7 @@ enum lnc_getparam_key {
 };
 
 struct drm_lnc_video_getparam_arg {
-	enum lnc_getparam_key key;
+	uint64_t key;
 	uint64_t arg;		/* argument pointer */
 	uint64_t value;		/* feed back pointer */
 };
